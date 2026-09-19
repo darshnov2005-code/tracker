@@ -18,6 +18,7 @@ export function Dashboard({
   stocks,
   funds,
   goals,
+  transactions,
 }: {
   stocks: Stock[]
   funds: MutualFund[]
