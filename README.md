@@ -1,21 +1,33 @@
-# India Investment Tracker
+# investment-portfolio-tracker
 
-Personal Indian investment tracker for stocks, mutual funds/SIPs, realised P&L, and financial goals.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
-## GitHub + Vercel setup
+## Built with v0
 
-1. Extract this ZIP.
-2. Upload **everything inside this folder** to the root of your GitHub repository. Do not upload the ZIP itself.
-3. Make sure the repository root contains `app/`, `lib/`, `supabase/`, and `package.json`.
-4. Keep `.env.example` in GitHub if you want; it contains blank placeholders only. Never commit `.env.local`.
-5. In Vercel, import the GitHub repository.
-6. Add these Environment Variables in Vercel:
-   - `NEXT_PUBLIC_SUPABASE_URL`
-   - `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
-7. In Supabase SQL Editor, run `supabase/schema.sql`.
-8. Redeploy.
+This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
 
-## Important
+[Continue working on v0 →](https://v0.app/chat/projects/prj_lCFXM2MQlSi3E4n1j50Ooulj61W0)
 
+## Getting Started
 
-For production market data, use an authorised/licensed market-data provider rather than relying on scraping exchange web pages.
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Learn More
+
+To learn more, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
